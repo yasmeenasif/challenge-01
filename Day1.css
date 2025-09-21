@@ -1,0 +1,193 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding: 0px;
+    width:100%;
+    
+}
+button{
+    width:100px;
+    height:15px;
+    border-radius:20px;
+}
+.left{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+}
+.right{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 10px;
+}
+.main{
+    display:flex;
+    column-gap: 20px;
+    }
+.box{
+    width:700px;
+    height:40px;
+    border:1px solid gainsboro;
+    background-color:gainsboro ;
+    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.para1{
+    display:flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.para2{
+    display:flex;
+     justify-content: space-between;
+     align-items: center;
+     }
+     .bottom{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        width:400px;
+        padding-top: 0;
+     }
+     .bottom-left{
+display:flex;
+align-items: center;
+column-gap: 10px;
+     }
+      .bottom-right{
+display:flex;
+align-items: center;
+column-gap: 10px;
+     }
+     .section1{
+        display:flex;
+        width:650px;
+        height:100px;
+        /* justify-content:flex-end; */
+        align-items :center;
+        justify-content: space-between;
+     }
+     .container{
+        display:flex;
+        justify-content:flex-start ;
+        align-items: center;
+     }
+     .image1{
+        display:flex;
+        justify-content: flex-end;
+        align-items:end;
+        padding-top: 2rem;
+        border:1px gainsboro;
+     }
+     .section2{
+        display:flex;
+        width:650px;
+        height:100px;
+        /* justify-content:flex-end; */
+        align-items :center;
+        justify-content: space-between;
+     }
+     .container{
+        display:flex;
+        justify-content:flex-start ;
+        align-items: center;
+     }
+     .image2{
+        display:flex;
+        justify-content: flex-end;
+        align-items:end;
+        padding-top: 2rem;
+        margin-left:1rem;
+     }
+     .section3{
+        display:flex;
+        width:650px;
+        height:100px;
+        /* justify-content:flex-end; */
+        align-items :center;
+        justify-content: space-between;
+     }
+     .container{
+        display:flex;
+        justify-content:flex-start ;
+        align-items: center;
+        column-gap: 50px;
+     }
+     .image3{
+        display:flex;
+        justify-content: flex-end;
+        align-items:end;
+        padding-top: 2rem;
+        margin-left:1rem;
+
+     }
+     .name{
+        display:flex;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 5px;
+     }
+     .name img{
+        border-radius: 100%;
+        display:flex; 
+     }
+     .name h5{
+        display:flex;
+     }
+     .Main-Container{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        column-gap:2 rem;
+      }
+    .aside{
+    width:400px;
+    height:350px;
+         display:grid;
+        grid-template-columns: auto;
+        justify-content:right;
+        align-items: right;
+        padding-top: 0px;
+        margin-top: 0px;
+        }
+        .button{
+            display:grid;
+            grid-template-columns: auto auto;
+            gap: 10px;
+          
+                   }
+        button{
+            display:grid;
+            grid-template-columns: auto auto;
+            column-gap: 20px;
+            background-color: lavender;
+            height:50px;
+            width:130px;
+            padding:10px;
+            align-items: center;
+            justify-content: center;
+            margin-right:10px;
+             border-radius: 50px;
+        }
+        .Final{
+            display:flex;
+            justify-content: space-between;
+            align-items:center;
+        }
+        .Follow button{
+            width:70px;
+            height:30px;
+            padding:5px;
+            align-items: center;
+            justify-content: center;
+        }
+        .icon{
+            display:flex;
+        }
+        .First{
+            height:300px;
+        }
